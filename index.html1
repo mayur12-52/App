@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Awareness App</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script type="module" src="app.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Digital Awareness: Mobile Phone Disadvantages</h1>
+    <form id="feedbackForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <textarea id="feedback" placeholder="Enter your feedback..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="responseMessage"></p>
+  </div>
+</body>
+</html>
